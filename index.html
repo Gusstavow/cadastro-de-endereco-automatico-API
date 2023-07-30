@@ -7,7 +7,7 @@
     <title>Autocomplete de endereco</title>
 
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+    
 
     <!-- Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -26,7 +26,7 @@
             <div class="alert alert-light" role="alert">
                 <h4>Mensagem:</h4>
                 <p>Texto da mensagem...</p>
-                <button id="clonse-massage" type="button" class="btn btn-secondary">Fechar</button>
+                <button id="close-message" type="button" class="btn btn-secondary">Fechar</button>
             </div>
         </div>
     </div>
@@ -99,7 +99,7 @@
                 </div>
                 <div class="form-floating col-12 col-sm-6">
                     <select name="region" id="region" class="form-select shadow-none" disabled required data-input>
-                        <option selected>Estado</option>
+                        <option selected value="default">Estado</option>
                         <option value="AC">Acre</option>
                         <option value="AL">Alagoas</option>
                         <option value="AP">Amapa</option>
@@ -139,6 +139,9 @@
             </div>
         </form>
     </div>
+
+    
+    <script src="js/script.js"></script>
 </body>
 
 </html>
